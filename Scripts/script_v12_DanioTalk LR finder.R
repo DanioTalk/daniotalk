@@ -205,8 +205,25 @@ final_name = "Resulting-ligand-receptor-pairs.xlsx"
 final_name_unfiltered = "Resulting-ligand-receptor-pairs-unfiltered.xlsx"
 print(paste("Saved interactome to file:", final_name))
 print(paste("Saved unfiltered interactome to file:", final_name_unfiltered))
-writexl::write_xlsx(final_filtered, final_name)
-writexl::write_xlsx(final_unfiltered, final_name_unfiltered)
+writexl::write_xlsx(
+  final_filtered %>%
+    select(-`Human ortholog.lig`,-`Human ortholog.rec`) %>%
+    mutate(
+      HUMAN_SYMBOL_REC = toupper(HUMAN_SYMBOL_REC),
+      HUMAN_SYMBOL_LIG = toupper(HUMAN_SYMBOL_LIG)
+    ),
+  final_name
+)
+
+writexl::write_xlsx(
+  final_unfiltered %>%
+    select(-`Human ortholog.lig`,-`Human ortholog.rec`) %>%
+    mutate(
+      HUMAN_SYMBOL_REC = toupper(HUMAN_SYMBOL_REC),
+      HUMAN_SYMBOL_LIG = toupper(HUMAN_SYMBOL_LIG)
+    ),
+  final_name_unfiltered
+)
 
 genes_with_cell = data %>%
   mutate(
@@ -237,7 +254,7 @@ final = genes_with_cell %>%
 
 final_name_genes = "Resulting-ligand-receptor-list-plasma-and-GO.xlsx"
 print(paste("Saved genes list to file:", final_name_genes))
-writexl::write_xlsx(final, final_name_genes)
+writexl::write_xlsx(final %>% mutate(`Human ortholog` = toupper(`Human ortholog`)), final_name_genes)
 
 cell_counts_unfiltered = "Resulting-cell-type-counts-unfiltered.xlsx"
 cell_counts = "Resulting-cell-type-counts.xlsx"
