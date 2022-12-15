@@ -1,4 +1,4 @@
-# DanioTalk <img src="./misc/danio-logo.png" width="139" align="right"/>
+# DanioTalk <img src="./misc/DaniotalkR logo.jpeg" width="139" align="right"/>
 
 # Download
 To download it you can go to the Github website and click on the `Download` button.
