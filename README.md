@@ -121,7 +121,7 @@ DanioTalk repository has a directory `Scripts` containing 3 scripts written in `
         Cell2	ackr3b	158,23	7,16	0,00E+00
         Cell2	ackr4a	158,23	7,16	0,00E+00
         ```
-    - `aliases.txt`, `human-orthos.txt`, `drug.target.interaction.tsv` files from the `Data/` directory
+    - `aliases.txt`, `human_orthos.txt`, `drug.target.interaction.tsv` files from the `Data/` directory
     - `Plasma ligands_expt.xlsx` and `Plasma ligands_predicted.xlsx` from `Assets/` directory
     - `GO ID_db.xlsx` from `Assets/` directory
     - ***Note!*** If you're using docker you can get these files using `docker cp` command just like when you were copying the `Database.csv` file.
