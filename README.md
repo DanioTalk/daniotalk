@@ -1,9 +1,7 @@
 # DanioTalk <img src="./misc/DaniotalkR logo.jpg" width="139" align="right"/>
 
 # How to cite 
-A ligand-receptor interactome atlas of the zebrafish
-Milosz Chodkowski, Andrzej Zielezinski, Savani Anbalagan
-biorXiv 2022, doi: https://doi.org/10.1101/2022.12.15.520415
+Chodkowski M. et al., A ligand-receptor interactome atlas of the zebrafish. bioRxiv 2022, doi: https://doi.org/10.1101/2022.12.15.520415
 
 # Download
 To download it you can go to the Github website and click on the `Download` button.
