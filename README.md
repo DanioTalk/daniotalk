@@ -114,15 +114,15 @@ DanioTalk repository has a directory `Scripts` containing 3 scripts written in `
 ## Scripts dependencies
 1.  
     - Generated database file (`Database.csv`) from `Database/` directory
-    - Excel file with your singleCell data with the following columns (`Cell type`, `Gene`, `Score`, `FC`, `P-value`) - default name: `Data Sheet.xlsx`. Example:
+    - Excel file with your singleCell data with the following columns (`Cell type`, `Gene`, `FC`, `P-value`) - default name: `Data Sheet.xlsx`. Example:
         ```
-        Cell type	Gene	Score	FC	P-value
-        Cell1	ndr2	173,35	7,55	0,00E+00
-        Cell1	spaw	158,23	7,16	0,00E+00
-        Cell1	ndr1	158,23	7,16	0,00E+00
-        Cell2	ackr3a	158,23	7,16	0,00E+00
-        Cell2	ackr3b	158,23	7,16	0,00E+00
-        Cell2	ackr4a	158,23	7,16	0,00E+00
+        Cell type	Gene		FC	    P-value
+        Cell1	    ndr2		7,55	0,00E+00
+        Cell1	    spaw		7,16	0,00E+00
+        Cell1	    ndr1		7,16	0,00E+00
+        Cell2	    ackr3a		7,16	0,00E+00
+        Cell2	    ackr3b		7,16	0,00E+00
+        Cell2	    ackr4a		7,16	0,00E+00
         ```
     - `aliases.txt`, `human_orthos.txt`, `drug.target.interaction.tsv` files from the `Data/` directory
     - `Plasma ligands_expt.xlsx` and `Plasma ligands_predicted.xlsx` from `Assets/` directory
