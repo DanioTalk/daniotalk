@@ -125,7 +125,7 @@ DanioTalk repository has a directory `Scripts` containing 3 scripts written in `
         Celltype2	    ackr3b		7.16	0.00E+00
         Celltype2	    ackr4a		7.16	0.00E+00
         ```
-      - For script_v13: Excel file with your singleCell data with the following columns (`Cell type`, `Gene`, `Expression`) - default name: `Data Sheet.xlsx`. Example:
+     - For script_v13: Excel file with your singleCell data with the following columns (`Cell type`, `Gene`, `Expression`) - default name: `Data Sheet.xlsx`. Example:
         ```
         Cell type	    Gene		Expression	    
         Celltype1	    ndr2		3.00	
