@@ -115,7 +115,7 @@ DanioTalk repository has a directory `Scripts` containing 3 scripts written in `
 ## Scripts dependencies
 1.  
     - Generated database file (`Database.csv`) from `Database/` directory
-    - For script_v12: Excel file with your singleCell data with the following columns (`Cell type`, `Gene`, `FC`, `P-value`) - default name: `Data Sheet.xlsx`. Example:
+    - For script_v12: Excel file with your singleCell or bulk RNA-seq data with the following columns (`Cell type`, `Gene`, `FC`, `P-value`) - default name: `Data Sheet.xlsx`. Example:
         ```
         Cell type	    Gene		FC	    P-value
         Celltype1	    ndr2		7.55	0.00E+00
@@ -131,7 +131,7 @@ DanioTalk repository has a directory `Scripts` containing 3 scripts written in `
     - ***Note!*** If you're using docker you can get these files using `docker cp` command just like when you were copying the `Database.csv` file.
 ---
 2. - Generated database file (`Database.csv`) from `Database/` directory
-    - For script_v13: Excel file with your singleCell data with the following columns (`Cell type`, `Gene`, `Expression`) - default name: `Data Sheet.xlsx`. Example:
+    - For script_v13: Excel file with your singleCell or bulk RNA-seq data with the following columns (`Cell type`, `Gene`, `Expression`) - default name: `Data Sheet.xlsx`. Example:
         ```
         Cell type	    Gene		Expression	    
         Celltype1	    ndr2		3.00	
