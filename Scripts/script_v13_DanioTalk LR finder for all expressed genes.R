@@ -1,8 +1,7 @@
 
 ######TO EDIT###################
 Input_filename = "Data Sheet_test.xlsx"
-FC_MIN_cutoff=1.5   #Minimum log2FC cutoff value
-P_value_cutoff=0.05 #Minimum P-value adjusted cutoff value
+Expression_MIN_cutoff=0.05  #Minimum expression cutoff value. 
 #########################
 
 
@@ -66,7 +65,6 @@ print("Loading data...
        Removing (1 of many).X")
 
 data = readxl::read_excel(Input_filename)  %>%
-  filter(`P-value` < P_value_cutoff) %>%
   mutate(across(where(is.character), tolower)) %>%
   mutate(across(
     where(is.character),
@@ -74,6 +72,9 @@ data = readxl::read_excel(Input_filename)  %>%
   )) %>%
   mutate(Gene = purrr::map_chr(Gene, filterSplicing)) %>%
   mutate(across(where(is.character), ~ stringr::str_trim(.x) %>% stringr::str_to_title()))
+
+# Add percentile
+data = data %>% group_by(`Cell type`) %>% mutate(`QuasiPercentile` = rank(Expression) / length(Expression))
 
 print("Updating gene names")
 data$Gene = data$Gene %>% purrr::map_chr(check_in_map) %>% tolower()
@@ -87,7 +88,7 @@ colnames(human) = c("ZFIN_ID",
                     "HUMAN_SYMBOL")
 
 print("Downloading drug data...")
-drugs = data.table::fread("https://unmtid-shinyapps.net/download/DrugCentral/2021_09_01/drug.target.interaction.tsv.gz") %>% 
+drugs = data.table::fread("drug.target.interaction.tsv") %>% 
   tibble() %>%
   mutate(GENE = strsplit(GENE, split = "|", fixed = T)) %>%
   unnest(GENE) %>%
@@ -153,10 +154,10 @@ final = joined %>%
   select(
     matches("Cell"),
     matches("Gene\\."),
-    matches("FC\\."),
-    matches("P-value\\."),
+    matches("Expression\\."),
     matches("IID"),
     matches("DRUG_NAME\\."),
+    matches("QuasiPercentile\\."),
     matches("Human"),
     PHYSICAL_INTERACTION_SCORE
   )
@@ -189,7 +190,7 @@ final = final %>% mutate(
     IID_numeric,
     PHYSICAL_INTERACTION_SCORE
   ),
-  `ScoreForRank2` = FC.lig * FC.rec * ScoreForRank1
+  `ScoreForRank2` = QuasiPercentile.lig * QuasiPercentile.rec * ScoreForRank1
 ) 
 
 final = final %>% mutate(
@@ -197,16 +198,34 @@ final = final %>% mutate(
   Ranking2 = dense_rank(desc(ScoreForRank2))
 ) %>% select(-c(IID_numeric))
 
+
 final_unfiltered = final %>% 
   mutate(across(where(is.character), ~ stringr::str_to_title(.x)))
-final_filtered = final_unfiltered %>% filter(FC.lig > FC_MIN_cutoff, FC.rec > FC_MIN_cutoff)
+final_filtered = final_unfiltered %>% filter(Expression.lig > Expression_MIN_cutoff, Expression.rec > Expression_MIN_cutoff)
 
 final_name = "Resulting-ligand-receptor-pairs.xlsx"
 final_name_unfiltered = "Resulting-ligand-receptor-pairs-unfiltered.xlsx"
 print(paste("Saved interactome to file:", final_name))
 print(paste("Saved unfiltered interactome to file:", final_name_unfiltered))
-writexl::write_xlsx(final_filtered, final_name)
-writexl::write_xlsx(final_unfiltered, final_name_unfiltered)
+writexl::write_xlsx(
+  final_filtered %>%
+    select(-`Human ortholog.lig`,-`Human ortholog.rec`) %>%
+    mutate(
+      HUMAN_SYMBOL_REC = toupper(HUMAN_SYMBOL_REC),
+      HUMAN_SYMBOL_LIG = toupper(HUMAN_SYMBOL_LIG)
+    ),
+  final_name
+)
+
+writexl::write_xlsx(
+  final_unfiltered %>%
+    select(-`Human ortholog.lig`,-`Human ortholog.rec`) %>%
+    mutate(
+      HUMAN_SYMBOL_REC = toupper(HUMAN_SYMBOL_REC),
+      HUMAN_SYMBOL_LIG = toupper(HUMAN_SYMBOL_LIG)
+    ),
+  final_name_unfiltered
+)
 
 genes_with_cell = data %>%
   mutate(
@@ -237,7 +256,7 @@ final = genes_with_cell %>%
 
 final_name_genes = "Resulting-ligand-receptor-list-plasma-and-GO.xlsx"
 print(paste("Saved genes list to file:", final_name_genes))
-writexl::write_xlsx(final, final_name_genes)
+writexl::write_xlsx(final %>% mutate(`Human ortholog` = toupper(`Human ortholog`)), final_name_genes)
 
 cell_counts_unfiltered = "Resulting-cell-type-counts-unfiltered.xlsx"
 cell_counts = "Resulting-cell-type-counts.xlsx"
@@ -245,24 +264,24 @@ df_unfiltered = final %>% group_by(`Cell type`) %>% summarize(
   `Ligand count` = sum(`Gene Type` == "Ligand"),
   `Receptor count` = sum(`Gene Type` == "Receptor")
 )
-df = final %>% filter(FC > FC_MIN_cutoff) %>% 
+df = final %>% filter(Expression > Expression_MIN_cutoff) %>% 
   group_by(`Cell type`) %>% 
   summarize(
-  `Ligand count` = sum(`Gene Type` == "Ligand"),
-  `Receptor count` = sum(`Gene Type` == "Receptor")
-)
+    `Ligand count` = sum(`Gene Type` == "Ligand"),
+    `Receptor count` = sum(`Gene Type` == "Receptor")
+  )
 writexl::write_xlsx(df, cell_counts)
 writexl::write_xlsx(df_unfiltered, cell_counts_unfiltered)
 
 ligands_and_receptors = "Resulting-ligands-receptors-each-cell.xlsx"
 ligands_and_receptors_unfiltered = "Resulting-ligands-receptors-each-cell-unfiltered.xlsx"
 df_list = final %>%
-  filter(FC > FC_MIN_cutoff) %>%
-  select(`Cell type`, Gene, `Gene Type`, FC, `P-value`,`DRUG_NAME`) %>%
+  filter(Expression > Expression_MIN_cutoff) %>%
+  select(`Cell type`, Gene, `Gene Type`, Expression, `DRUG_NAME`) %>%
   split(.$`Cell type`) %>%
   purrr::map(~ .x %>% select(-`Cell type`))
 df_list_unfiltered = final %>%
-  select(`Cell type`, Gene, `Gene Type`, FC, `P-value`, `DRUG_NAME`) %>%
+  select(`Cell type`, Gene, `Gene Type`, Expression, `DRUG_NAME`) %>%
   split(.$`Cell type`) %>%
   purrr::map(~ .x %>% select(-`Cell type`))
 
