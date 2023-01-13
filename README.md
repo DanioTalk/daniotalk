@@ -106,7 +106,8 @@ docker rm daniotalk
 # Scripts
 DanioTalk repository has a directory `Scripts` containing 3 scripts written in `R`. You can open this scripts and edit their content in comment-highlighted sections (you can edit input filenames and other parameters). These scripts need a dependency files which you should put next to the script itself (in the same directory).
 
-1. **Ligand-Receptor finder** (`Scripts/script_v12_DanioTalk LR finder.R`)
+1. **Ligand-Receptor finder for DE genes** (`Scripts/script_v12_DanioTalk LR finder for DE genes.R`)
+2. **Ligand-Receptor finder for all expressed genes** (`Scripts/script_v13_DanioTalk LR finder for all expressed genes.R`)
 2. **Group visualizer** (`Scripts/script-circ_v2_2 group visualizer.R`)
 3. **Multiple group visualizer** (`Scripts/script-circ_v5_LR multiple group visualizer.R`)
 
@@ -114,15 +115,25 @@ DanioTalk repository has a directory `Scripts` containing 3 scripts written in `
 ## Scripts dependencies
 1.  
     - Generated database file (`Database.csv`) from `Database/` directory
-    - Excel file with your singleCell data with the following columns (`Cell type`, `Gene`, `FC`, `P-value`) - default name: `Data Sheet.xlsx`. Example:
+    - For script_v12: Excel file with your singleCell data with the following columns (`Cell type`, `Gene`, `FC`, `P-value`) - default name: `Data Sheet.xlsx`. Example:
         ```
-        Cell type	Gene		FC	    P-value
-        Cell1	    ndr2		7,55	0,00E+00
-        Cell1	    spaw		7,16	0,00E+00
-        Cell1	    ndr1		7,16	0,00E+00
-        Cell2	    ackr3a		7,16	0,00E+00
-        Cell2	    ackr3b		7,16	0,00E+00
-        Cell2	    ackr4a		7,16	0,00E+00
+        Cell type	    Gene		FC	    P-value
+        Celltype1       ndr2		7.55	0.00E+00
+        Celltype1	    spaw		7.16	0.00E+00
+        Celltype1	    ndr1		7.16	0.00E+00
+        Celltype2	    ackr3a		7.16	0.00E+00
+        Celltype2	    ackr3b		7.16	0.00E+00
+        Celltype2	    ackr4a		7.16	0.00E+00
+        ```
+      - For script_v13: Excel file with your singleCell data with the following columns (`Cell type`, `Gene`, `Expression`) - default name: `Data Sheet.xlsx`. Example:
+        ```
+        Cell type	    Gene		Expression	    
+        Celltype1	    ndr2		3.00	
+        Celltype1	    spaw		0.09	
+        Celltype1	    ndr1		0.04	
+        Celltype2	    ackr3a		0.45	
+        Celltype2	    ackr3b		0.31	
+        Celltype2	    ackr4a		0.30	
         ```
     - `aliases.txt`, `human_orthos.txt`, `drug.target.interaction.tsv` files from the `Data/` directory
     - `Plasma ligands_expt.xlsx` and `Plasma ligands_predicted.xlsx` from `Assets/` directory
