@@ -119,7 +119,7 @@ DanioTalk repository has a directory `Scripts` containing 3 scripts written in `
         ```
         Cell type	    Gene		FC	    P-value
         Celltype1       ndr2		7.55	0.00E+00
-        Celltype1	    spaw		7.16	0.00E+00
+        Celltype1       spaw		7.16	0.00E+00
         Celltype1	    ndr1		7.16	0.00E+00
         Celltype2	    ackr3a		7.16	0.00E+00
         Celltype2	    ackr3b		7.16	0.00E+00
