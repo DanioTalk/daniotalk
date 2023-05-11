@@ -96,6 +96,30 @@ cd ..
 python create_pairs.py
 ```
 
+##### Example output of 'create_pairs.py'
+```bash
+docker@ae0aac9f01b5:/daniotalk$ python3 create_pairs.py
+
+______            _     _____     _ _
+|  _  \          (_)   |_   _|   | | |
+| | | |__ _ _ __  _  ___ | | __ _| | | __
+| | | / _` | '_ \| |/ _ \| |/ _` | | |/ /
+| |/ | (_| | | | | | (_) | | (_| | |   <
+|___/ \__,_|_| |_|_|\___/\_/\__,_|_|_|\_
+04:27:58 [INFO 🐠]: Fetching ZF and HUMAN orthology data...
+04:28:01 [INFO 🐠]: Loading receptors and ligands...
+04:28:01 [INFO 🐠]: Joining association files...
+04:28:02 [INFO 🐠]: Reducing redundant records; aggregating frames...
+04:28:03 [INFO 🐠]: Joining human orthology...
+04:28:03 [INFO 🐠]: Loading Matrisome annotation
+04:28:05 [INFO 🐠]: Adding Matrisome annotation
+04:28:05 [INFO 🐠]: Adding conservation scores
+04:28:08 [INFO 🐠]: Loading data from IID...
+04:28:10 [INFO 🐠]: Creating pairs from IID data...
+04:28:17 [INFO 🐠]: Creating every possible ligand-receptor pair...
+04:28:19 [INFO 🐠]: Creating list of pairs from STRING...
+```
+
 ### Output files
 
 If you used the software locally (not installed using docker) then the `Database.xlsx` file will be saved in the `Database/` directory.
@@ -136,8 +160,7 @@ DanioTalk repository has a directory `Scripts` containing 4 scripts written in `
 
 ## Scripts dependencies
 
-1. - Generated database file (`Database.csv`) from `Database/` directory
-   - For script_v14: Excel file with your singleCell or bulk RNA-seq data with the following columns (`Cell type`, `Gene`, `FC`, `P-value`) - default name: `Data Sheet.xlsx`. Example:
+1. For script_v14: Excel file with your singleCell or bulk RNA-seq data with the following columns (`Cell type`, `Gene`, `FC`, `P-value`) - default name: `Data Sheet.xlsx`. Example:
      
      ```
      Cell type        Gene        FC        P-value
@@ -148,14 +171,14 @@ DanioTalk repository has a directory `Scripts` containing 4 scripts written in `
      Celltype2        ackr3b        7.16    0.00E+00
      Celltype2        ackr4a        7.16    0.00E+00
      ```
-   - `aliases.txt`, `human_orthos.txt`, `drug.target.interaction.tsv` files from the `Data/` directory
+   - Generated database file (`Database.csv`) from `Database/` directory
+   - `aliases.txt`, `human_orthos.txt` files from the `Data/` directory
    - `Plasma ligands_expt.xlsx` and `Plasma ligands_predicted.xlsx` from `Assets/` directory
    - ***Note!*** If you're using docker you can get these files using `docker cp` command just like when you were copying the `Database.csv` file.
 
 ---
 
-2. - Generated database file (`Database.csv`) from `Database/` directory
-     - For script_v15: Excel file with your singleCell or bulk RNA-seq data with the following columns (`Cell type`, `Gene`, `Expression`) - default name: `Data Sheet.xlsx`. Example:
+2. For script_v15: Excel file with your singleCell or bulk RNA-seq data with the following columns (`Cell type`, `Gene`, `Expression`) - default name: `Data Sheet.xlsx`. Example:
        
        ```
        Cell type        Gene        Expression        
@@ -166,7 +189,8 @@ DanioTalk repository has a directory `Scripts` containing 4 scripts written in `
        Celltype2        ackr3b        0.31    
        Celltype2        ackr4a        0.30    
        ```
-     - `aliases.txt`, `human_orthos.txt`, `drug.target.interaction.tsv` files from the `Data/` directory
+     - Generated database file (`Database.csv`) from `Database/` directory
+     - `aliases.txt`, `human_orthos.txt` files from the `Data/` directory
      - `Plasma ligands_expt.xlsx` and `Plasma ligands_predicted.xlsx` from `Assets/` directory
      - 
      - ***Note!*** If you're using docker you can get these files using `docker cp` command just like when you were copying the `Database.csv` file.

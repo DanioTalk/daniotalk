@@ -1,5 +1,9 @@
 20kx18
 3m76
+42sp43	fi35c12
+42sp43	si:dkey-208k4.2
+42sp43	thesaurin
+42sp43	wu:fi35c12
 4m99
 WITHDRAWN:cripto	cripto
 WITHDRAWN:sb:cb476	cb476
@@ -847,6 +851,7 @@ actl6a	wu:fb52e06
 actl6a	wu:fl26e12
 actl6b
 actl6b	zgc:110167
+actmap	zgc:153119
 actn1
 actn2a
 actn2b
@@ -1399,6 +1404,7 @@ adipor1b	zgc:55386
 adipor2
 adipor2	si:ch211-281k12.9
 adipor2	zgc:136273
+adissp	si:ch211-151p13.8
 adka
 adka	adk
 adka	cb163
@@ -1593,6 +1599,12 @@ afg1la	lace1a
 afg1lb
 afg1lb	lace1b
 afg1lb	si:ch211-278n15.1
+afg2a	spata5
+afg2a	unm_ct96a
+afg2b	spata5l1
+afg2b	wu:fi26h05
+afg2b	wu:fi39b02
+afg2b	zgc:153294
 afg3l1
 afg3l1	si:ch1073-174d20.2
 afg3l2
@@ -1985,7 +1997,9 @@ akr1b1.2
 akr1b1.2	si:dkey-180p18.9
 akr1b1.2	zgc:153855
 akr7a3
+akr7a3	fb48h07
 akr7a3	fd56g11
+akr7a3	wu:fb48h07
 akr7a3	wu:fd56g11
 akr7a3	zgc:92502
 akt1
@@ -2650,6 +2664,9 @@ anln	si:ch211-197n10.2
 anln	wu:fb74d05
 anln	wu:fd10d09
 anln	wu:fi41f04
+anln2	si:dkey-238c7.5
+anln2	si:dkey-30c15.10
+anln2	si:dkey-30c15.9
 ano10a
 ano10a	ano10
 ano10a	fc37b04
@@ -3132,6 +3149,8 @@ apol1
 apol1	si:rp71-1g18.12
 apol1	wu:fa95b12
 apol1	wu:fc30h04
+apold1a	si:rp71-1g18.13
+apold1b	si:cabz01007802.1
 apom
 apom	fb62d12
 apom	si:ch211-235o23.2
@@ -3633,6 +3652,12 @@ arih1l	zgc:85905
 arih2
 arih2	wu:fa09c12
 arih2	zgc:64093
+ark2ca	rnf165
+ark2ca	rnf165a
+ark2ca	si:ch73-29c22.3
+ark2cb	rnf165b
+ark2cb	si:dkey-210e6.1
+ark2n	zgc:77838
 arl1
 arl1	zgc:92883
 arl10
@@ -3794,9 +3819,6 @@ arnt2	zfARNT2c
 arntl1a
 arntl1b
 arntl2
-arntl2	bmal2
-arntl2	bmal2a
-arntl2	wu:fj90c09
 arpc1a
 arpc1a	wu:fk93e03
 arpc1b
@@ -5655,6 +5677,10 @@ blr
 bls
 blt
 bltn
+bltp3a	si:ch73-90n13.2
+bltp3a	uhrf1bp1
+bltp3b	si:dkeyp-90a8.1
+bltp3b	uhrf1bp1l
 bluk
 blvra
 blvra	zgc:153046
@@ -5678,6 +5704,10 @@ bmal1a	zfBMAL1
 bmal1b	arntl1b
 bmal1b	bmal1b
 bmal1b	zfBMAL3
+bmal2	arntl2
+bmal2	bmal2
+bmal2	bmal2a
+bmal2	wu:fj90c09
 bmb
 bmb	fi04f09
 bmb	wu:fi04f09
@@ -6528,6 +6558,8 @@ ca8
 ca8	CARP VIII
 ca8	zgc:110118
 ca9
+ca9	cb77
+ca9	sb:cb77
 cab
 cab39
 cab39	MO25
@@ -6655,6 +6687,7 @@ cacna2d2a	zgc:113325
 cacna2d2b
 cacna2d2b	si:ch211-11p18.4
 cacna2d3
+cacna2d3	dory
 cacna2d3	si:busm1-136d19.1
 cacna2d3	si:dz136d19.1
 cacna2d3a
@@ -6831,7 +6864,9 @@ cald1b	cald1
 cald1b	si:dkey-206m15.7
 cald1l2
 calhm1
-calhm1	si:dkey-51a16.6
+calhm1a	calhm1
+calhm1a	si:dkey-51a16.6
+calhm1b	si:dkeyp-80c12.5
 calhm2.1
 calhm2.1	calhm2
 calhm2.1	fam26b
@@ -7558,7 +7593,6 @@ ccdc103
 ccdc103	smh
 ccdc103	zgc:100838
 ccdc105
-ccdc105	si:ch211-272b8.5
 ccdc106a
 ccdc106a	zgc:113313
 ccdc106b
@@ -7675,7 +7709,6 @@ ccdc186	si:ch211-225b10.4
 ccdc187
 ccdc187	zgc:162431
 ccdc189
-ccdc189	si:ch73-81k8.2
 ccdc191
 ccdc191	zgc:92218
 ccdc22
@@ -9465,8 +9498,11 @@ cez
 cfap100
 cfap100	ccdc37
 cfap100	zgc:153139
+cfap119	ccdc189
+cfap119	si:ch73-81k8.2
 cfap126
 cfap126	zgc:152916
+cfap144	fam183a
 cfap157
 cfap157	si:ch211-233f10.4
 cfap161
@@ -9547,6 +9583,7 @@ cfap61
 cfap61	zmp:0000000601
 cfap65
 cfap65	si:ch1073-349o24.2
+cfap68	gb:eh456644
 cfap70
 cfap70	si:dkey-254e1.1
 cfap70	ttc18
@@ -9559,6 +9596,7 @@ cfap74	si:dkeyp-87a12.1
 cfap74	wu:fj08c09
 cfap77
 cfap77	si:ch211-215c18.4
+cfap90	si:dkeyp-46h3.1
 cfap91
 cfap91	maats1
 cfap91	si:dkey-265i7.2
@@ -9566,6 +9604,8 @@ cfap92
 cfap92	gb:cn021732
 cfap92	si:dkey-57n24.6
 cfap92	zmp:0000000638
+cfap96	si:ch211-51g4.3
+cfap96	zgc:153146
 cfap97
 cfap97	fj68c08
 cfap97	wu:fj68c08
@@ -10223,6 +10263,24 @@ cilp
 cilp	im:7137994
 cilp2
 cilp2	si:ch211-212d10.4
+cimap1b	fj19d04
+cimap1b	odf3b
+cimap1b	odf3l
+cimap1b	shippo1
+cimap1b	shpp
+cimap1b	shpp1
+cimap1b	si:dkeyp-1h4.4
+cimap1b	trim35-30
+cimap1b	wu:fj19d04
+cimap1b	zgc:63985
+cimap1d	odf3l2
+cimap1d	odf3l2b
+cimap1d	zgc:194430
+cimip2b	fam166b
+cimip2b	zgc:158652
+cimip2c	fam166c
+cimip2c	gb:ex154936
+cimip2c	si:ch211-198b3.4
 cinp
 cinp	im:6903816
 cip2a
@@ -10505,8 +10563,9 @@ cldn5a	cldn5
 cldn5a	zgc:85723
 cldn5b
 cldn5b	zgc:103419
+cldn5c	cldn5c
+cldn5c	cldn5cp
 cldn5cp
-cldn5cp	cldn5c
 cldn7a
 cldn7a	zgc:92192
 cldn7b
@@ -10767,6 +10826,9 @@ clul1	wu:fb51b10
 clvs2
 clvs2	si:ch211-199i15.4
 clx
+clxn	efcab1
+clxn	im:6911536
+clxn	si:ch211-173p18.9
 clybl
 clybl	cb504
 clybl	fk25c09
@@ -11037,6 +11099,8 @@ cnp	wu:fd44a05
 cnp	wu:fi35d08
 cnp	wu:fi37a10
 cnp	zRICH
+cnp4l	cnp4
+cnp4l	si:ch211-273k1.5
 cnppd1
 cnppd1	c2orf24
 cnppd1	wu:fa05h07
@@ -11801,13 +11865,15 @@ cplane2	zgc:101035
 cplane2	zgc:113864
 cplx1
 cplx2
-cplx2	wu:fc27b12
+cplx2a	cplx2
+cplx2a	cplx2l
+cplx2a	fc97e10
+cplx2a	wu:fc97e10
+cplx2a	wu:fq40b06
+cplx2a	zgc:92325
+cplx2b	cplx2
+cplx2b	wu:fc27b12
 cplx2l
-cplx2l	cplx2
-cplx2l	fc97e10
-cplx2l	wu:fc97e10
-cplx2l	wu:fq40b06
-cplx2l	zgc:92325
 cplx3a
 cplx3a	cplx3
 cplx3a	si:dkey-88p16.2
@@ -13270,9 +13336,6 @@ cygb1	wu:fb93a03
 cygb1	zgc:109806
 cygb2
 cyhr1
-cyhr1	fi59b02
-cyhr1	wu:fi59b02
-cyhr1	zgc:153061
 cylda
 cylda	cyld
 cyldb
@@ -13360,6 +13423,8 @@ cyp26b1	zgc:76999
 cyp26c1
 cyp26c1	cyp26b1l
 cyp26c1	cyp26d1
+cyp27a1.1	cyp27a7
+cyp27a1.1	si:dkeyp-68f9.9
 cyp27a1.2
 cyp27a1.2	si:dkeyp-68f9.10
 cyp27a1.3
@@ -13367,8 +13432,9 @@ cyp27a1.3	si:dkeyp-68f9.11
 cyp27a1.4
 cyp27a1.4	si:dkeyp-68f9.12
 cyp27a1.4	wu:fb58e08
+cyp27a2	si:ch211-113j14.1
+cyp27a3	si:dkey-91i10.3
 cyp27a7
-cyp27a7	si:dkeyp-68f9.9
 cyp27b1
 cyp27c1
 cyp27c1	sb:eu635
@@ -13513,6 +13579,7 @@ cyp46a1.3	zgc:136808
 cyp46a1.4
 cyp46a1.4	cyp46a4
 cyp46a1.4	zgc:63667
+cyp46a1.5	zgc:123299
 cyp4f3
 cyp4f3	cyp4f43
 cyp4f3	zgc:162915
@@ -13521,13 +13588,15 @@ cyp4t8	CYP4T8
 cyp4t8	cb1041
 cyp4t8	cyp4
 cyp4t8	cyp4a10
+cyp4v2a	cyp4v2
+cyp4v2a	cyp4v8
+cyp4v2a	im:7136890
+cyp4v2a	wu:fd50b03
+cyp4v2a	zgc:154161
+cyp4v2b	cyp4v7
+cyp4v2b	zgc:154042
 cyp4v7
-cyp4v7	zgc:154042
 cyp4v8
-cyp4v8	cyp4v2
-cyp4v8	im:7136890
-cyp4v8	wu:fd50b03
-cyp4v8	zgc:154161
 cyp51
 cyp51	wu:fb66a09
 cyp7a1
@@ -13539,12 +13608,15 @@ cyp7b1
 cyp7b1	cyp7c1
 cyp7b1	si:ch211-39l18.4
 cyp8b1
-cyp8b1	si:ch73-198j8.4
-cyp8b1	zgc:92406
+cyp8b1.1	cyp8b1
+cyp8b1.1	si:ch73-198j8.4
+cyp8b1.1	zgc:92406
+cyp8b1.2	cyp8b2
+cyp8b1.2	zgc:174342
+cyp8b1.3	cyp8b3
+cyp8b1.3	zgc:92214
 cyp8b2
-cyp8b2	zgc:174342
 cyp8b3
-cyp8b3	zgc:92214
 cypa
 cypa	cb791
 cysltr1
@@ -16136,6 +16208,9 @@ eef1a1l2
 eef1a1l2	fi48f03
 eef1a1l2	wu:fi48f03
 eef1a1l2	zgc:109885
+eef1a1l3	fi12b10
+eef1a1l3	si:dkey-37o8.1
+eef1a1l3	wu:fi12b10
 eef1a2
 eef1a2	zgc:92085
 eef1akmt1
@@ -16194,13 +16269,20 @@ eef2l2	si:ch211-113n10.4
 eef2l2	wu:fj53d02
 eefsec
 eefsec	zgc:123265
+eeig1a	fam102aa
+eeig1a	si:ch211-51h9.10
+eeig1b	fam102a
+eeig1b	fam102ab
+eeig1b	si:dkey-205l20.6
+eeig1b	zgc:152955
+eeig2a	fam102b
+eeig2a	fam102ba
+eeig2a	zgc:136846
 eepd1
 eepd1	zgc:77395
 eevs
 eevs	si:ch211-170n20.3
 efcab1
-efcab1	im:6911536
-efcab1	si:ch211-173p18.9
 efcab11
 efcab11	zgc:110317
 efcab2
@@ -18143,14 +18225,8 @@ fal
 falkor
 fam
 fam102aa
-fam102aa	si:ch211-51h9.10
 fam102ab
-fam102ab	fam102a
-fam102ab	si:dkey-205l20.6
-fam102ab	zgc:152955
 fam102ba
-fam102ba	fam102b
-fam102ba	zgc:136846
 fam102bb
 fam102bb	si:ch211-199m3.7
 fam107b
@@ -18259,10 +18335,7 @@ fam163ba	fam163b
 fam163ba	si:dkey-180g13.1
 fam163bb
 fam166b
-fam166b	zgc:158652
 fam166c
-fam166c	gb:ex154936
-fam166c	si:ch211-198b3.4
 fam167aa
 fam167aa	zgc:153092
 fam167ab
@@ -19253,6 +19326,10 @@ fip1l1b
 fip1l1b	fip1l1
 fip1l1b	wu:fd36f11
 fip1l1b	zgc:103421
+firrm	fc44g01
+firrm	si:dkey-97o5.1
+firrm	wu:fc44g01
+firrm	zgc:110228
 fis1
 fis1	im:6905231
 fis1	si:dkey-1c17.5
@@ -19401,8 +19478,6 @@ flot2a	zgc:55821
 flot2b
 flot2b	zgc:64103
 flr
-flr	DYF-1
-flr	IFT70
 flrt1a
 flrt1a	sc:d0372
 flrt1b
@@ -22544,11 +22619,13 @@ gpr160
 gpr160	zgc:195172
 gpr160	zgc:195187
 gpr161a
-gpr161a	gpr161
-gpr161a	si:bz20i5.4
-gpr161a	si:rp71-20i5.4
+gpr161a	gpr161b
+gpr161a	si:ch211-237c6.4
 gpr161b
-gpr161b	si:ch211-237c6.4
+gpr161b	gpr161
+gpr161b	gpr161a
+gpr161b	si:bz20i5.4
+gpr161b	si:rp71-20i5.4
 gpr165
 gpr17
 gpr17	si:ch73-194h10.4
@@ -24720,6 +24797,15 @@ hmgcrb	im:6912716
 hmgcrb	zgc:110746
 hmgcs1
 hmgcs1	zgc:56481
+hmgn1a	linc-wrb
+hmgn1a	si:ch73-281n10.2
+hmgn1a	wu:fa95c02
+hmgn1a	wu:fb74d02
+hmgn1b	TCONS_00009015
+hmgn1b	linc-mipep
+hmgn1b	lnc_rps25
+hmgn1b	lncrps25
+hmgn1b	si:ch73-1a9.3
 hmgn2
 hmgn2	fa22g10
 hmgn2	wu:fa22g10
@@ -25987,10 +26073,13 @@ ifi27.8
 ifi27.8	isg12.8
 ifi27.8	si:dkey-188i13.11
 ifi30
-ifi30	GILT
-ifi30	LycGILT
-ifi30	wu:fb12b04
-ifi30	zgc:101752
+ifi30a	GILT
+ifi30a	LycGILT
+ifi30a	ifi30
+ifi30a	wu:fb12b04
+ifi30a	zgc:101752
+ifi30b	si:dkey-197i20.6
+ifi30b	zmp:0000000774
 ifi35
 ifi44a1
 ifi44a1	si:dkeyp-9d4.2
@@ -26156,10 +26245,16 @@ ift27	zgc:101893
 ift43
 ift46
 ift52
+ift56	im:7142924
+ift56	ttc26
+ift56	zgc:103412
 ift57
 ift57	curly
 ift57	hippi
 ift57	zgc:111831
+ift70	DYF-1
+ift70	IFT70
+ift70	flr
 ift74
 ift74	zgc:92052
 ift80
@@ -26561,6 +26656,7 @@ igsf8	zgc:77222
 igsf9a
 igsf9a	si:ch211-136o4.1
 igsf9b
+igsf9b	im:7138430
 igsf9b	im:7148508
 igsf9b	si:dkey-49h9.6
 igsf9ba
@@ -26671,6 +26767,7 @@ il11ra	fi26e06
 il11ra	wu:fi26e06
 il12a
 il12a	IL-12p35
+il12b2	si:dkey-88e18.2
 il12ba
 il12ba	il-12p40.a
 il12ba	il12b
@@ -28007,11 +28104,12 @@ irf1b	irf11
 irf1b	sb:eu922
 irf1b	zgc:103566
 irf2
-irf2	irf2b
-irf2	zgc:103451
 irf2a
 irf2a	wu:fc74h04
 irf2a	zgc:76951
+irf2b	irf2
+irf2b	irf2b
+irf2b	zgc:103451
 irf2bp1
 irf2bp1	si:dkey-223n17.3
 irf2bp2a
@@ -29431,6 +29529,8 @@ khsrp	wu:fb25b12
 khsrp	wu:fc10e10
 khsrp	wu:fc94c12
 khsrp	zgc:163038
+kiaa0232	wu:fc44c06
+kiaa0232	zgc:158564
 kiaa0319
 kiaa0319	sb:eu253
 kiaa0319	si:ch73-215d9.1
@@ -29440,7 +29540,6 @@ kiaa0513
 kiaa0513	wu:fj54b01
 kiaa0513	zgc:91860
 kiaa0895
-kiaa0895	si:dkey-222b8.4
 kiaa0895l
 kiaa0930
 kiaa0930	si:ch73-347c12.3
@@ -30910,6 +31009,7 @@ lipca	lipc
 lipca	zgc:64081
 lipcb
 lipea
+lipea	hsl
 lipea	si:dkey-3n22.7
 lipeb
 lipeb	si:ch211-194b7.1
@@ -31242,10 +31342,11 @@ lpin2
 lpin2	lipin2
 lpin2	si:dkey-216e9.8
 lpl
-lpl	fb62e04
-lpl	fc49b03
-lpl	wu:fb62e04
-lpl	wu:fc49b03
+lpla	fb62e04
+lpla	fc49b03
+lpla	lpl
+lpla	wu:fb62e04
+lpla	wu:fc49b03
 lpp
 lpp	fc26e09
 lpp	wu:fc26e09
@@ -32316,12 +32417,14 @@ mapk7	fb73b02
 mapk7	wu:fb73b02
 mapk7	zgc:113111
 mapk8a
+mapk8a	jnk1a
 mapk8a	jnk1a-2
 mapk8a	zgc:172209
 mapk8b
 mapk8b	JNK
 mapk8b	jnk1
 mapk8b	jnk1a-1
+mapk8b	jnk1b
 mapk8b	mapk8
 mapk8b	zgc:112379
 mapk8ip1a
@@ -32389,12 +32492,13 @@ marchf2	march2
 marchf2	si:ch211-197g15.3
 marchf2	zgc:158704
 marchf4
-marchf4	march4
-marchf4	marchf4
-marchf4	si:ch211-239d11.2
+marchf4a	march4l
+marchf4a	marchf4l
+marchf4a	zgc:153256
+marchf4b	march4
+marchf4b	marchf4
+marchf4b	si:ch211-239d11.2
 marchf4l
-marchf4l	march4l
-marchf4l	zgc:153256
 marchf5
 marchf5	march5
 marchf5	zgc:162966
@@ -32524,6 +32628,8 @@ mat2b	fc55d01
 mat2b	wu:fb48h02
 mat2b	wu:fc55d01
 mat2b	zgc:110308
+matcap2	kiaa0895
+matcap2	si:dkey-222b8.4
 matk
 matk	si:ch211-63j24.2
 matn1
@@ -33292,12 +33398,8 @@ mettl6
 mettl6	zgc:56175
 mettl6	zgc:76943
 mettl7a.1
-mettl7a.1	mettl7a
-mettl7a.1	zgc:153889
 mettl7a.2
-mettl7a.2	si:ch211-173n18.3
 mettl7a.3
-mettl7a.3	si:ch211-173n18.4
 mettl8
 mettl8	zgc:103547
 mettl9
@@ -34143,7 +34245,6 @@ mlphb	mlph
 mlphb	mlpha
 mlphb	si:dkeyp-74a11.9
 mlsl
-mlsl	zmp:0000000758
 mlst8
 mlst8	fi37e04
 mlst8	gbl
@@ -34438,6 +34539,7 @@ mov10b.1	si:dkeyp-38g6.2
 mov10b.1	wu:fa99a10
 mov10b.2
 mov10b.2	si:dkeyp-38g6.3
+mov10l1	zgc:154086
 moxd1
 moxd1	fj65c11
 moxd1	si:dkeyp-119b4.5
@@ -34985,7 +35087,10 @@ msna	zgc:85640
 msnb
 msnb	msn
 msra
-msra	si:dkey-221h15.1
+msraa	msra
+msraa	si:dkey-221h15.1
+msrab	im:7149628
+msrab	si:ch1073-358c10.1
 msrb1a
 msrb1a	MsrB
 msrb1a	SePR
@@ -36459,6 +36564,7 @@ ncaph2	si:dkey-202b22.2
 ncbp2
 ncbp2	CHUNP6917
 ncbp2	zgc:92592
+ncbp2as2	si:ch211-162e15.3
 ncbp3
 ncbp3	zgc:55870
 nccrp1
@@ -37244,6 +37350,21 @@ ngs	chordostatin
 ngs	zgc:194470
 nhej1
 nhej1	zgc:85657
+nherf1a	cb895
+nherf1a	nherf1
+nherf1a	slc9a3
+nherf1a	slc9a3r1
+nherf1a	slc9a3r1a
+nherf1a	slc9a3r2
+nherf1a	wu:fd20a02
+nherf1a	zgc:55541
+nherf1a	zgc:77629
+nherf1b	slc9a3r1b
+nherf2	slc9a3r2
+nherf4a	pdzd3
+nherf4a	pdzd3a
+nherf4b	pdzd3b
+nherf4b	zgc:194812
 nhlh2
 nhlh2	NSCL1
 nhlh2	zgc:77245
@@ -38341,13 +38462,22 @@ nppa	hm:zeh1304
 nppa	zeh1304
 nppal
 nppal	anpl
+nppal	cnp3
 nppal	zgc:195023
 nppal	zgc:195044
 nppb
+nppb	bnp
 nppb	si:ch211-215j19.10
 nppb	zmp:0000000639
 nppc
+nppc	cnp4
 nppc	si:ch211-126j24.3
+nppcl	cnp1
+nppcl	fj39g12
+nppcl	nppcl
+nppcl	wu:fj39g12
+nppcl2	cnp2
+nppcl2	si:ch73-265d7.2
 npr1a
 npr1a	si:dkey-27c15.1
 npr1b
@@ -38559,6 +38689,7 @@ nr3c2	mr
 nr3c2	si:ch211-189l17.1
 nr4a1
 nr4a1	NGFIB
+nr4a1	nur77
 nr4a1	zgc:92434
 nr4a2a
 nr4a2a	nurr1
@@ -38912,6 +39043,8 @@ nt5m
 ntan1
 ntan1	si:dkey-264o13.5
 ntan1	zgc:77869
+ntaq1	si:rp71-45k5.3
+ntaq1	wdyhv1
 ntd5
 ntf3
 ntf3	NT-3
@@ -39338,6 +39471,7 @@ odc1	ornithine decarboxylase
 odc1	wu:fc54f04
 odc1	wu:fi06d08
 odf2a
+odf2a	cenexin
 odf2a	odf2
 odf2a	si:dkey-228b2.4
 odf2b
@@ -39345,21 +39479,10 @@ odf2b	im:7137744
 odf2b	si:ch211-251j10.4
 odf2b	wu:fc04b05
 odf3b
-odf3b	fj19d04
-odf3b	odf3l
-odf3b	shippo1
-odf3b	shpp
-odf3b	shpp1
-odf3b	si:dkeyp-1h4.4
-odf3b	trim35-30
-odf3b	wu:fj19d04
-odf3b	zgc:63985
 odf3l2a
 odf3l2a	si:dkey-97a13.2
 odf3l2a	zgc:110183
 odf3l2b
-odf3l2b	odf3l2
-odf3l2b	zgc:194430
 odk
 odr4
 odr4	c1orf27
@@ -41023,6 +41146,7 @@ oxt
 oxt	IT-NP
 oxt	fj33a01
 oxt	isotocin neurophysin
+oxt	ist
 oxt	itnp
 oxt	oxtl
 oxt	wu:fj33a01
@@ -42254,6 +42378,10 @@ pde4cb	si:ch211-255d18.1
 pde4cb	wu:fc68c05
 pde4d
 pde4d	si:dkey-190g11.2
+pde4dip	fb73f05
+pde4dip	im:6912350
+pde4dip	si:ch211-242b18.1
+pde4dip	wu:fb73f05
 pde5aa
 pde5ab
 pde5ab	pde5a
@@ -42473,9 +42601,7 @@ pdzd11	zgc:77536
 pdzd2
 pdzd2	si:dkey-3h3.1
 pdzd3a
-pdzd3a	pdzd3
 pdzd3b
-pdzd3b	zgc:194812
 pdzd4
 pdzd4	im:6912105
 pdzd7a
@@ -44552,6 +44678,7 @@ pnp6
 pnp6	zgc:77182
 pnpla1
 pnpla2
+pnpla2	atgl
 pnpla3
 pnpla3	zgc:92195
 pnpla4
@@ -46200,6 +46327,12 @@ prr33	fa30g02
 prr33	wu:fa30g02
 prr35
 prr35	si:ch211-248l17.3
+prr36a	fi41g12
+prr36a	prr36
+prr36a	si:ch211-214c7.4
+prr36a	wu:fi41g12
+prr36b	fb95e10
+prr36b	wu:fb95e10
 prr5a
 prr5a	prr5
 prr5a	zmp:0000000788
@@ -46758,6 +46891,7 @@ ptgfr	FP
 ptgfr	zPRC4
 ptgfrna
 ptgfrna	ptgfrn
+ptgfrna	unm_sa34536
 ptgfrnb
 ptgfrnb	si:ch211-132g1.7
 ptgir
@@ -47342,6 +47476,7 @@ qkia	zqk-1
 qkia	zqk1
 qkib
 qkib	si:ch73-47d4.1
+qng1	zgc:136564
 qpct
 qpctla
 qpctla	fb71g05
@@ -47792,6 +47927,11 @@ rad9b
 rad9b	rad9a
 radar2
 radil
+radil2a	radil-b
+radil2a	si:ch73-281f12.4
+radil2a	zmp:0000000679
+radil2b	radil-c
+radil2b	si:ch211-176g6.2
 radx
 radx	Cxorf57
 radx	si:ch211-26b3.2
@@ -48035,8 +48175,10 @@ rasal3
 rasd1
 rasd1	zgc:65909
 rasd2
-rasd2	rhes
-rasd2	zgc:114118
+rasd2a	rasd2
+rasd2a	rhes
+rasd2a	zgc:114118
+rasd2b	si:dkey-27j5.5
 rasd3
 rasd3	ras-dav1
 rasd3	zgc:152698
@@ -49187,6 +49329,7 @@ rlbp1b	zgc:77766
 rlf
 rlf	im:7146976
 rlf	si:ch211-154e15.8
+rlig1	zgc:103499
 rlim
 rlim	rnf12
 rln1
@@ -49384,10 +49527,7 @@ rnf152	zgc:110537
 rnf157
 rnf157	si:dkey-49c17.3
 rnf165a
-rnf165a	rnf165
-rnf165a	si:ch73-29c22.3
 rnf165b
-rnf165b	si:dkey-210e6.1
 rnf166
 rnf167
 rnf168
@@ -50879,6 +51019,7 @@ sav1	zgc:92250
 saxo2
 saxo2	fam154b
 saxo2	zgc:123250
+saxo4	ppp1r32
 saysd1
 saysd1	si:ch211-59d15.9
 sb:cb100
@@ -51024,7 +51165,6 @@ sb:cb681
 sb:cb681	cb681
 sb:cb743
 sb:cb77
-sb:cb77	cb77
 sb:cb774
 sb:cb774	gc34
 sb:cb784
@@ -51625,19 +51765,21 @@ sec31a	sec31p
 sec31b
 sec31b	sec31l2
 sec61a1
-sec61a1	chunp6898
-sec61a1	fb62c11
-sec61a1	sec61a
-sec61a1	sec61al1
-sec61a1	wu:fb62c11
+sec61a1a	chunp6898
+sec61a1a	fb62c11
+sec61a1a	sec61a
+sec61a1a	sec61a1
+sec61a1a	sec61al1
+sec61a1a	wu:fb62c11
+sec61a1b	cb413
+sec61a1b	sec61a1l
+sec61a1b	sec61al2
+sec61a1b	sec61b
+sec61a1b	wu:fb36f05
+sec61a1b	wu:fb36f12
+sec61a1b	wu:fb37d04
+sec61a1b	wu:fi26f11
 sec61a1l
-sec61a1l	cb413
-sec61a1l	sec61al2
-sec61a1l	sec61b
-sec61a1l	wu:fb36f05
-sec61a1l	wu:fb36f12
-sec61a1l	wu:fb37d04
-sec61a1l	wu:fi26f11
 sec61b
 sec61b	fa20b05
 sec61b	wu:fa20b05
@@ -53699,7 +53841,6 @@ si:ch1073-357b18.3p
 si:ch1073-357b18.3p	si:ch1073-357b18.3
 si:ch1073-357b18.4
 si:ch1073-358c10.1
-si:ch1073-358c10.1	im:7149628
 si:ch1073-35f11.1
 si:ch1073-361l9.1
 si:ch1073-363c19.3
@@ -55434,8 +55575,6 @@ si:ch211-214b16.4
 si:ch211-214c11.1
 si:ch211-214c20.1
 si:ch211-214c7.4
-si:ch211-214c7.4	fi41g12
-si:ch211-214c7.4	wu:fi41g12
 si:ch211-214c7.5
 si:ch211-214d11.2
 si:ch211-214e3.5
@@ -55979,9 +56118,6 @@ si:ch211-241j12.4	si:busm1-189a20.7
 si:ch211-241j8.2
 si:ch211-241n15.3
 si:ch211-242b18.1
-si:ch211-242b18.1	fb73f05
-si:ch211-242b18.1	im:6912350
-si:ch211-242b18.1	wu:fb73f05
 si:ch211-242e8.1
 si:ch211-242f23.3
 si:ch211-242h13.1
@@ -56808,8 +56944,6 @@ si:ch211-67o23.1
 si:ch211-67p11.3
 si:ch211-68a17.2
 si:ch211-68a17.7
-si:ch211-68a17.7	brawnin
-si:ch211-68a17.7	gb:cn833218
 si:ch211-69b22.3
 si:ch211-69b22.4
 si:ch211-69b22.5
@@ -57185,8 +57319,6 @@ si:ch73-19f24.3p
 si:ch73-19f24.3p	si:ch73-19f24.3
 si:ch73-19m13.1
 si:ch73-1a9.3
-si:ch73-1a9.3	TCONS_00009015
-si:ch73-1a9.3	lnc_rps25
 si:ch73-1f23.1
 si:ch73-1m18.2
 si:ch73-203a8.1
@@ -57389,15 +57521,12 @@ si:ch73-280o22.2	gb:eb924149
 si:ch73-281f12.3p
 si:ch73-281f12.3p	si:ch73-281f12.3
 si:ch73-281f12.4
-si:ch73-281f12.4	zmp:0000000679
 si:ch73-281i18.3
 si:ch73-281i18.4
 si:ch73-281i18.6
 si:ch73-281i18.7
 si:ch73-281k2.5
 si:ch73-281n10.2
-si:ch73-281n10.2	wu:fa95c02
-si:ch73-281n10.2	wu:fb74d02
 si:ch73-282k6.1
 si:ch73-285p12.4
 si:ch73-286h23.3
@@ -58749,7 +58878,6 @@ si:dkey-197c15.4
 si:dkey-197c15.6
 si:dkey-197c15.6	im:7159785
 si:dkey-197i20.6
-si:dkey-197i20.6	zmp:0000000774
 si:dkey-197j19.4
 si:dkey-197j19.5
 si:dkey-197j19.6
@@ -58967,8 +59095,6 @@ si:dkey-208k22.1
 si:dkey-208k22.6
 si:dkey-208k4.1
 si:dkey-208k4.2
-si:dkey-208k4.2	fi35c12
-si:dkey-208k4.2	wu:fi35c12
 si:dkey-208k4.3
 si:dkey-208k4.8
 si:dkey-208m12.2
@@ -60001,8 +60127,6 @@ si:dkey-2j6.4
 si:dkey-2p18.4
 si:dkey-30a6.1
 si:dkey-30c15.10
-si:dkey-30c15.10	si:dkey-238c7.5
-si:dkey-30c15.10	si:dkey-30c15.9
 si:dkey-30c15.12
 si:dkey-30c15.13
 si:dkey-30c15.15
@@ -60162,8 +60286,6 @@ si:dkey-37m8.3
 si:dkey-37m8.4
 si:dkey-37m8.5
 si:dkey-37o8.1
-si:dkey-37o8.1	fi12b10
-si:dkey-37o8.1	wu:fi12b10
 si:dkey-38c18.2
 si:dkey-38k9.3
 si:dkey-38k9.5
@@ -61052,9 +61174,6 @@ si:dkey-97l20.5p	si:dkey-97l20.5
 si:dkey-97l20.6
 si:dkey-97m3.1
 si:dkey-97o5.1
-si:dkey-97o5.1	fc44g01
-si:dkey-97o5.1	wu:fc44g01
-si:dkey-97o5.1	zgc:110228
 si:dkey-98b14.1
 si:dkey-98f17.1
 si:dkey-98f17.4
@@ -62051,6 +62170,12 @@ skib	fc17g02
 skib	skiB
 skib	wu:fc17g02
 skib	wu:fk79g04
+skic2	fb70b07
+skic2	skiv2l
+skic2	wu:fb70b07
+skic3	ttc37
+skic8	wdr61
+skic8	zgc:77675
 skida1
 skida1	im:7137453
 skila
@@ -62058,8 +62183,6 @@ skila	si:dkey-52k20.10
 skilb
 skilb	zgc:193698
 skiv2l
-skiv2l	fb70b07
-skiv2l	wu:fb70b07
 skm
 skor1a
 skor1a	zgc:194563
@@ -63502,14 +63625,6 @@ slc9a3.2
 slc9a3.2	nhe3b
 slc9a3.2	si:dkey-3n22.6
 slc9a3r1a
-slc9a3r1a	cb895
-slc9a3r1a	nherf1
-slc9a3r1a	slc9a3
-slc9a3r1a	slc9a3r1
-slc9a3r1a	slc9a3r2
-slc9a3r1a	wu:fd20a02
-slc9a3r1a	zgc:55541
-slc9a3r1a	zgc:77629
 slc9a3r1b
 slc9a3r2
 slc9a5
@@ -63536,6 +63651,7 @@ slco1c1	si:dkey-217k21.8
 slco1c1	zOatp1c3
 slco1d1
 slco1d1	Oatp1d1
+slco1d1	slco1c
 slco1d1	wu:fe36b05
 slco1d1	zgc:163027
 slco1e1
@@ -64444,6 +64560,9 @@ sorcs1
 sorcs2
 sorcs2	zmp:0000000822
 sorcs3a
+sorcs3a	sorcs3
+sorcs3a	sorcs3a
+sorcs3a	zmp:0000001327
 sorcs3b
 sorcs3b	si:ch211-207n2.8
 sord
@@ -64730,11 +64849,7 @@ spata4	zgc:111786
 spata45
 spata45	si:ch211-147d7.5
 spata5
-spata5	unm_ct96a
 spata5l1
-spata5l1	wu:fi26h05
-spata5l1	wu:fi39b02
-spata5l1	zgc:153294
 spata6
 spata6	zgc:110309
 spata6l
@@ -64884,6 +64999,8 @@ spire2
 spire2	zgc:103506
 spl
 spm
+spmap2	si:ch211-137c4.4
+spmap2	theg
 spns1
 spns1	etID64740.3
 spns1	not really started
@@ -65043,6 +65160,8 @@ sptb	riesling
 sptb	ris
 sptb	wu:fa09g12
 sptbn1
+sptbn1	fb92e08
+sptbn1	wu:fb92e08
 sptbn1	zmp:0000000587
 sptbn1	zmp:0000000859
 sptbn2
@@ -65588,8 +65707,8 @@ st8sia6	wu:fb95c11
 st8sia7.1
 st8sia7.1	ST8Sia VIIA
 st8sia7.1p
-st8sia7.1p	ST8Sia VIIB
-st8sia7.1p	st8sia7.2
+st8sia7.2	ST8Sia VIIB
+st8sia7.2	st8sia7.1p
 stab1
 stab1	si:dkeyp-87e7.6
 stab1	stab1l
@@ -67836,6 +67955,8 @@ tekt2	zgc:111885
 tekt3
 tekt4
 tekt4	zgc:162848
+tektl1	ccdc105
+tektl1	si:ch211-272b8.5
 telo2
 telo2	si:ch211-153c20.2
 telo2	zgc:153824
@@ -68261,7 +68382,6 @@ thbs4b	tsp4b
 thbs4b	zgc:111910
 thc
 theg
-theg	si:ch211-137c4.4
 them4
 them4	zgc:158847
 them6
@@ -69544,6 +69664,13 @@ tmsb4x	zTB4
 tmsb4x	zgc:195154
 tmsb5
 tmsb5	si:dkey-167i21.2
+tmt1a.1	mettl7a
+tmt1a.1	mettl7a.1
+tmt1a.1	zgc:153889
+tmt1a.2	mettl7a.2
+tmt1a.2	si:ch211-173n18.3
+tmt1a.3	mettl7a.3
+tmt1a.3	si:ch211-173n18.4
 tmtc1
 tmtc1	si:ch73-1o10.3
 tmtc2a
@@ -71803,9 +71930,11 @@ tspan33a	zgc:92266
 tspan33b
 tspan33b	si:ch211-59c24.1
 tspan34
-tspan34	zgc:153650
+tspan34a	tspan34
+tspan34a	zgc:153650
+tspan34b	tspan35
+tspan34b	zgc:64085
 tspan35
-tspan35	zgc:64085
 tspan36
 tspan36	dali
 tspan36	sb:cb666
@@ -71918,8 +72047,6 @@ ttc22	im:7147629
 ttc23
 ttc23	si:dkey-25f3.1
 ttc26
-ttc26	im:7142924
-ttc26	zgc:103412
 ttc27
 ttc27	chunp6906
 ttc27	flj20272l
@@ -72802,6 +72929,8 @@ uggt2
 uggt2	im:7146988
 uggt2	ugcgl2
 uggt2	wu:fi13a08
+ugl	mlsl
+ugl	zmp:0000000758
 ugp2a
 ugp2a	si:ch73-233a22.2
 ugp2b
@@ -72896,9 +73025,7 @@ uhrf1	unm_b1115
 uhrf1	wu:fb97f09
 uhrf1	zgc:63539
 uhrf1bp1
-uhrf1bp1	si:ch73-90n13.2
 uhrf1bp1l
-uhrf1bp1l	si:dkeyp-90a8.1
 uimc1
 uinh
 ulk1a
@@ -73581,10 +73708,6 @@ unm_mh11	unm_dmh11
 unm_mh18
 unm_mh18	unm_dmh18
 unm_mh22
-unm_mh22	reph
-unm_mh22	rephaim
-unm_mh22	unm_dmh22
-unm_mh22	unm_mh22
 unm_mi184
 unm_mi184	unm mi184
 unm_mi198
@@ -77347,6 +77470,11 @@ uqcc3
 uqcc3	fb12b10
 uqcc3	si:dkey-88p24.9
 uqcc3	wu:fb12b10
+uqcc4	si:ch211-231f6.6
+uqcc5	smim4
+uqcc6	brawnin
+uqcc6	gb:cn833218
+uqcc6	si:ch211-68a17.7
 uqcr10
 uqcr10	TCONS_00052125
 uqcrb
@@ -77863,6 +77991,7 @@ vat1l
 vat1l	zgc:171879
 vav2
 vav2	si:dkeyp-116h7.3
+vav2	wan
 vav3a
 vav3a	si:ch211-223f21.2
 vav3b
@@ -78426,8 +78555,14 @@ washc5	spastic paraplegia 8
 washc5	strumpellin
 washc5	zgc:55908
 wasla
+wasla	N-waspa
 wasla	zgc:158395
 waslb
+waslb	N-waspb
+waslb	reph
+waslb	rephaim
+waslb	unm_dmh22
+waslb	unm_mh22
 waslb	wasl
 waslb	zgc:55478
 waslb	zgc:77237
@@ -78605,7 +78740,6 @@ wdr59	si:ch73-167i17.2
 wdr6
 wdr6	si:dkey-20d21.7
 wdr61
-wdr61	zgc:77675
 wdr62
 wdr62	fa11h05
 wdr62	fb33e12
@@ -78668,7 +78802,6 @@ wdtc1	fc31b01
 wdtc1	wu:fc31b01
 wdtc1	zgc:194983
 wdyhv1
-wdyhv1	si:rp71-45k5.3
 web
 wee1
 wee1	fa20h03
@@ -79798,7 +79931,6 @@ wu:fb48g11	fb48g11
 wu:fb48g12
 wu:fb48g12	fb48g12
 wu:fb48h07
-wu:fb48h07	fb48h07
 wu:fb49a01
 wu:fb49a01	fb49a01
 wu:fb49a07
@@ -80363,7 +80495,6 @@ wu:fb92d11	fb92d11
 wu:fb92e06
 wu:fb92e06	fb92e06
 wu:fb92e08
-wu:fb92e08	fb92e08
 wu:fb92e12
 wu:fb92e12	fb92e12
 wu:fb92f01
@@ -80437,7 +80568,6 @@ wu:fb95d03	fb95d03
 wu:fb95e07
 wu:fb95e07	fb95e07
 wu:fb95e10
-wu:fb95e10	fb95e10
 wu:fb95f05
 wu:fb95f05	fb95f05
 wu:fb95f11
@@ -82991,8 +83121,6 @@ wu:fj39e10	fj39e10
 wu:fj39f02
 wu:fj39f02	fj39f02
 wu:fj39g12
-wu:fj39g12	fj39g12
-wu:fj39g12	nppcl
 wu:fj39h03
 wu:fj39h03	fj39h03
 wu:fj39h06
@@ -84687,6 +84815,10 @@ zfr2	si:ch211-63j24.3
 zfr2	wu:fb99a09
 zfta
 zfta	si:dkey-106g10.7
+zftraf1	cyhr1
+zftraf1	fi59b02
+zftraf1	wu:fi59b02
+zftraf1	zgc:153061
 zfx
 zfx	wu:fb70f06
 zfyve1
@@ -85115,7 +85247,6 @@ zgc:153119
 zgc:153137
 zgc:153142
 zgc:153146
-zgc:153146	si:ch211-51g4.3
 zgc:153151
 zgc:153157
 zgc:153166
@@ -85238,7 +85369,6 @@ zgc:158482
 zgc:158506
 zgc:158517
 zgc:158564
-zgc:158564	wu:fc44c06
 zgc:158659
 zgc:158689
 zgc:158701
@@ -86296,8 +86426,6 @@ zmp:0000001321
 zmp:0000001325
 zmp:0000001326
 zmp:0000001327
-zmp:0000001327	sorcs3
-zmp:0000001327	sorcs3a
 zmp:0000001328
 zmp:0000001329
 zmp:0000001330
