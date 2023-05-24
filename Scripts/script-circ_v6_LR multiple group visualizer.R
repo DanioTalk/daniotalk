@@ -52,7 +52,7 @@ cell_group_text_color = "white" # Run command 'colors()' to see all colors
 ##### END OF SETTINGS
 
 outname = glue(
-  "Receptors-{cell_rec}-vs-Ligands-{cell_lig}-top-{howmany}-interactions-ranking-{ranking}-confidene-{confidence_level}.tiff"
+  "Receptors-{cell_rec}-vs-Ligands-{cell_lig}-top-{howmany}-interactions-ranking-{ranking}-confidence-{confidence_level}.tiff"
 )
 
 
