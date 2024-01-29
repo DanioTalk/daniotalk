@@ -2,7 +2,8 @@
 
 # How to cite
 
-Chodkowski M. et al., A ligand-receptor interactome atlas of the zebrafish. bioRxiv 2022, doi: https://doi.org/10.1101/2022.12.15.520415
+Chodkowski M. et al., A ligand-receptor interactome atlas of the zebrafish. iScience 2023, doi: 10.1016/j.isci.2023.107309
+URL: https://pubmed.ncbi.nlm.nih.gov/37539027/
 
 # Download
 
